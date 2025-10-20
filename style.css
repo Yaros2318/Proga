@@ -1,0 +1,110 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    color: #000;
+    min-width: 1200px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  .header {
+    background-color: #FFFFFF;
+    padding: 14px 0px;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+}
+
+  .header-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+  .align-left {
+    margin: 27px 15px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .welcome {
+    margin-right: 1020px;
+    font-size: 18px;
+    height: 22px;
+    white-space: nowrap;
+    transform: translateY(-5%);
+  }
+
+  .notification {
+    box-sizing: border-box;
+    width: 56px;
+    height: 56px;
+    padding: 15px;
+    border: 1px solid #E7E7E7;
+    border-radius: 50%;
+  }
+
+  .profile_block {
+    margin-left: 19px;
+    width: 208px;
+    height: 56px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.profile {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #E7E7E7;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.select_profile {
+    box-sizing: border-box;
+    width: 107px;
+    height: 30px;
+    outline: none;
+    border: none;
+    font-size: 19px;
+    font-weight: bold;
+    border-radius: 7px;
+    position: relative;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.select_profile:hover {
+    background-color: #E7E7E7;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: #E7E7E7;
+}
+
+.container_main {
+    max-width: 1400px;
+    position: relative;
+}
+
+.header_tickets {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
