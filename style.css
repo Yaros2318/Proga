@@ -109,3 +109,12 @@ body {
     top: 20px;
     left: 30px;
 }
+
+.container_tickets {
+    width: 1455px;
+    height: 885px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 30px;
+    top: 75px;
+}
