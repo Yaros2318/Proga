@@ -102,6 +102,7 @@ body {
     height: 991px;
     position: relative;
     margin: 0 auto;
+    padding: 0px 30px;
 }
 
 .header_tickets {
@@ -111,10 +112,9 @@ body {
 }
 
 .container_tickets {
-    width: 1455px;
+    width: 1440px;
     height: 885px;
     background-color: #FFFFFF;
     position: absolute;
-    left: 30px;
     top: 75px;
 }
