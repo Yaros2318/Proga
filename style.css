@@ -22,7 +22,6 @@ body {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 20px;
-    position: relative;
 }
 
   .header-top {
@@ -99,12 +98,14 @@ body {
 }
 
 .container_main {
-    max-width: 1400px;
+    max-width: 1600px;
+    height: 991px;
     position: relative;
+    margin: 0 auto;
 }
 
 .header_tickets {
     position: absolute;
     top: 20px;
-    left: 40px;
+    left: 80px;
 }
