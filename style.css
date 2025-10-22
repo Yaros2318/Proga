@@ -142,11 +142,35 @@ body {
 }
 
 .search_tickets:focus {
+    outline: none;
+    border: 1px solid rgba(199, 199, 199, 0.459);
+    box-shadow: none;
+}
+
+.search_tickets:focus-visible {
+    outline: none;
+}
+
+.select_tickets {
+    height: 44px;
+    width: 157px;
+    position: absolute;
+    left: 907px;
+    margin: 20px 20px;
+    top: 0;
+    border: 1px solid rgba(199, 199, 199, 0.459);
+    background-color: #fbfbfb;
+    border-radius: 5px;
+    opacity: 0.5;
+    text-indent: 25px;
+}
+
+.select_tickets:focus {
   outline: none;
   border: 1px solid rgba(199, 199, 199, 0.459);
   box-shadow: none;
 }
 
-.search_tickets:focus-visible {
+.select_tickets:focus-visible {
   outline: none;
 }
